@@ -141,6 +141,7 @@ for line in fl:
   print "at ", line
   # get dataset name and task id
   sl=line.split("/")
+  print sl
   # last item is taskID
   thisTaskID=0
   if sl[-1]=="":
